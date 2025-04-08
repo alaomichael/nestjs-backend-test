@@ -41,7 +41,7 @@ A RESTful API service built with NestJS, TypeScript, Prisma, and GraphQL, suppor
    This will generate the GraphQL schema file at `src/schema.graphql`.
 
 ## GraphQL Endpoint
-- Access the GraphQL playground at `http://localhost:3000/graphql`.
+- Access the GraphQL playground at `http://localhost:3000/graphql`(or the forwarded URL in GitHub Codespaces).
 
 ## Example Queries/Mutations
 - **Get User**:
