@@ -11,7 +11,7 @@ A RESTful API service built with NestJS, TypeScript, Prisma, and GraphQL, suppor
 ## Setup
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/alaomichael/nestjs-backend-test.git
    cd nestjs-backend-test
    ```
 2. **Install dependencies**:

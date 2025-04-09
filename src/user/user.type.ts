@@ -8,9 +8,6 @@ export class User {
   @Field(() => String)
   email: string;
 
-  @Field(() => String, { nullable: true })
-  biometricKey: string | null;
-
   @Field(() => Date)
   createdAt: Date;
 
