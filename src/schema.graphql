@@ -5,7 +5,6 @@
 type User {
   id: ID!
   email: String!
-  biometricKey: String
   createdAt: DateTime!
   updatedAt: DateTime!
 }
