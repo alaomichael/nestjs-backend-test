@@ -43,7 +43,7 @@ describe('AuthService', async () => {
   });
 
   it('should register a user and return a token', async () => {
-    const token = await authService.register('test@example.com', 'password123');
+    const token = await authService.register('test@example.com', 'password123','biometric123');
     expect(token).toBe('mocked-token');
     expect(userService.createUser).toHaveBeenCalled();
   });
